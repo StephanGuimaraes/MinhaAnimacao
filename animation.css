@@ -1,0 +1,310 @@
+*{
+    margin: 0;
+    padding: 0;
+    block-size: border-box;
+}
+
+.caixaprincipal{
+
+    margin: 0 auto;
+    border: 1px solid red ;
+    width: 30%;
+    position: relative;
+    top: 100px;
+    overflow: hidden;
+    background: linear-gradient(90deg, rgba(29,56,75,1) 0%, rgba(18,50,62,1) 100%, rgba(26,71,80,1) 100%);
+    height: 200px;
+}
+
+.boneco{
+    position: absolute;
+    bottom: -10px;
+    
+}
+
+.pernas{
+    width: 50px;
+    height: 50px;
+}
+
+
+@keyframes prediosanimation{
+    from{
+        right: 0px;
+    }
+
+    to{
+        right: 100%;
+        
+    }
+
+}
+
+.bandeira{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: -50px;
+    bottom: -5px;
+    animation: 'none'
+}
+.bandeira2{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: -50px;
+    bottom: -5px;
+    animation: 'none'
+}
+.bandeira3{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: -50px;
+    bottom: -5px;
+    animation: 'none'
+}
+
+.trofeu{
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    right: -50px;
+    bottom: 5px;
+    animation: 'none';
+    visibility: hidden;
+}
+.trofeu2{
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    right: 0px;
+    bottom: 5px;
+    animation: 'none';
+    visibility: hidden;
+}
+
+.win{
+
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 35%;
+    bottom: 80px;    
+    animation: 'none';
+    visibility: hidden;
+    filter: invert(100%);
+    
+}
+
+@keyframes win-animation{
+    0%{
+        visibility: hidden;
+    }
+
+    100%{
+        visibility: visible;
+        
+    }
+
+}
+
+
+@keyframes flag-animation{
+    from{
+        right: -50px;
+    }
+
+    to{
+        right: 100%;
+        
+    }
+
+}
+
+@keyframes trofeu-animation{
+    from{
+        right: -50px;
+    }
+
+    to{
+        right: 0px;
+        
+    }
+
+}
+@keyframes trofeu-animation2{
+    from{
+        right: 0px;
+    }
+
+    to{
+        right: 100%;
+        
+    }
+
+}
+
+
+
+
+
+
+.predio{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 0px;
+    bottom: -3px;
+   
+}
+
+.predio2{
+    width: 120px;
+    height: 170px;
+    position: absolute;
+    right: 130px;
+    bottom: -20px;
+    
+}
+
+.predio3{
+    width: 120px;
+    height: 170px;
+    position: absolute;
+    right: 280px;
+    bottom: -20px;
+   
+}
+
+
+@keyframes predioanimation {
+    from{
+        right: 0px;
+    }
+
+    to{
+        right: 100%;
+    }
+}
+@keyframes predio2animation {
+    from{
+        right: 130px;
+    }
+
+    to{
+        right: 100%;
+    }
+}
+@keyframes predio3animation {
+    from{
+        right: 280px;
+    }
+
+    to{
+        right: 100%;
+    }
+}
+
+
+@keyframes animatecoin {
+    from{
+        bottom: 15px;
+    }
+
+    to{
+       bottom: 20px;
+    }
+
+    0% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
+      }
+
+  }
+  
+  .bandeirinhas{
+    position: absolute;
+    top: 0px;
+    flex-direction: row;
+
+
+  }
+
+  .bandeirinhas img{
+    width: 40px;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+           
+  }
+
+  .bd1{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    filter: grayscale(100%);
+  }
+  .bd2{
+    position: absolute;
+    top: 0px;
+    left: 15px;
+    filter: grayscale(100%);
+  }
+  .bd3{
+    position: absolute;
+    top: 0px;
+    left: 30px;
+    filter: grayscale(100%);
+  }
+  .bd4{
+    position: absolute;
+    top: 0px;
+    left: 45px;
+    filter: grayscale(100%);
+  }
+
+
+
+.botao{
+    position: relative;
+   top: 120px;
+    left: 40%;
+}
+
+
+  .strada{
+    background-color: gray;
+    width: 110%;
+    height: 15px;
+    transform: skewX(-40deg);
+    -webkit-transform: skewX(-40deg);
+    -moz-transform: skewX(-40deg);
+    -o-transform: skewX(-40deg);
+    -ms-transform: skewX(-40deg);
+    position: absolute;
+    bottom: -0;
+    left: -20px;
+  }
+
+.nuvem{
+    width: 300px;
+    height: 100px;
+    right: 0px;
+    position: absolute;
+    animation: none;
+}
+
+
+
+@keyframes nuvens{
+    from{
+        right: 0px;
+    }
+
+    to{
+        right: 100%;
+    }
+}
